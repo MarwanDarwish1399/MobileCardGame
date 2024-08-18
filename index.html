@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Game</title>
+</head>
+<body>
+    <div class="background-img initial-bg">
+        <img src="Questions Game.png" alt="Initial Background Image" />
+    </div>
+    <div class="background-img game-bg hidden">
+        <img src="Q.png" alt="Game Background Image" />
+    </div>
+    <div class="content">
+        <button class="start-game" id="startBtn">Start Game</button>
+    </div>
+    <div class="loader" id="loader"></div>
+    <div id="newPage" class="new-page hidden">
+        <img id="currentCardImage" src="" alt="Card Image" />
+        <button class="NextQ">Next Question</button>
+        <button class="PrevQ">Previous Question</button>
+        <button class="end" id="endBtn">End Game</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
